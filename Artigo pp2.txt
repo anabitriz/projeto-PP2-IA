@@ -1,0 +1,32 @@
+﻿Como saber se o câncer é maligno ou benigno usando IA
+Ana Beatriz,Karyne Evelyn, Jefferson RIcardo, Arthur Gusmão e Gabriely Viviane
+ Téc. Em Desenvolvimento de Sistemas – Instituto Federal de Educação, Ciência e Tecnologia de Pernambuco (IFPE - Campus jaboatão dos Guararapes)
+Caixa Postal  54080-000 – Jaboatão dos Guararapes – PE – Brazil
+abfs5@discente.ifpe.edu.br,
+ agm6@discente.ifpe.edu.br,
+ kecg@discente.ifpe.edu.br,
+gvvs@discente.ifpe.edu.br,
+hrgs1@discente.ifpe.edu.br
+
+
+ e-mail_do(a)_orientando(a)_4@discente.ifpe.edu.br, e-mail_do(a)_orientador(a)@jaboatao.ifpe.edu.br 
+Abstract. The machine learning model used was Random Forest to diagnose breast cancer, based on the Breast Cancer Wisconsin dataset. The goal is to provide a tool that determines whether a cancer is malignant or benign through questions about symptoms, comparing the results obtained with previous studies that used Artificial Neural Networks and algorithms such as FURIA. The model was trained with 80% of the data and tested with the remaining 20%, achieving 96.49% accuracy and 97.56% precision.
+Resumo.   O modelo de aprendizado de máquina usado foi o Random Forest para diagnosticar o câncer de mama, com base no dataset Breast Cancer Wisconsin. O objetivo é fornecer uma ferramenta que diga se o câncer é maligno ou benigno através de perguntas sobre os sintomas , comparando os resultados obtidos com estudos anteriores que utilizaram Redes Neurais Artificiais e algoritmos como FURIA. O modelo foi treinado com 80% dos dados e testado com 20% restantes, apresentando acurácia de 96,49% e precisão de 97,56%. 
+
+
+
+
+1. Introdução
+Nosso projeto foi desenvolvido no Google Colab, com apoio do VS Code, e teve como base um dataset voltado à área da saúde, escolhemos esse conjunto de dados por considerá-lo muito interessante e relevante, especialmente para o estudo e detecção do câncer de mama. O objetivo do trabalho é prever se um caso de câncer de mama é maligno ou benigno, utilizando uma Inteligência Artificial (IA) treinada para essa finalidade. Além disso, buscamos compreender como o uso da IA pode auxiliar profissionais da saúde na tomada de decisão e no diagnóstico precoce, tornando o processo mais rápido e preciso. Assim, este artigo apresenta o desenvolvimento, os métodos utilizados e os resultados obtidos com o modelo de IA aplicado ao problema.
+
+
+        2. Referências
+
+
+1. Campos, L. M. L., & Garcia, J. C. P. (2019). Aplicação de Redes Neurais Artificiais em Diagnóstico de Câncer de Mama e Concessão de Crédito Bancário. Revista GT.
+
+2. Silva, J. P. S. (2025). Avaliação do algoritmo Random Forest no diagnóstico de câncer de mama. UESPI.
+
+3. Silva, L. H., Rocha, J. M. F. R. C., & Moraes, R. M. (2025). Aplicação do algoritmo FURIA no diagnóstico de câncer de mama. Proceedings SBMAC.
+
+4. Kaggle. Breast Cancer Wisconsin (Diagnostic) Data Set. Disponível em: https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data
